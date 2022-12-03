@@ -49,7 +49,7 @@ body {
 }
 
 #navbar a {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
 }
   
@@ -74,15 +74,12 @@ body {
 /* MAIN */
 #main {
     display: flex;
-}
-
-#main .row {
-    flex-direction: column;
+   justify-content: center;
 }
 
 #main img {
-    width: 400px;
-    margin-top: -2em;
+    width: 300px;
+    margin-top: 2em;
 }
 
 #main p {
@@ -94,7 +91,7 @@ body {
 }
 
 #main h1 {
-    font-size: 5em;
+    font-size: 2.5em;
     font-weight: 900;
     color: #3d2514;
     text-shadow: #FFF 3px 3px;
@@ -102,7 +99,7 @@ body {
 }
 
 #main h3 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: -0.4em;
     font-weight: 800;
     color: #3d2514;
@@ -142,7 +139,7 @@ body {
 }
 
 #section0 img {
-    width: 420px;
+    width: 320px;
     margin-top: 1em;
 }
 
@@ -326,7 +323,7 @@ body {
 
 /* FOOTER */
 #footer .footer_img1 {
-    width: 420px;
+    width: 340px;
     height: 400px;
 }
 
